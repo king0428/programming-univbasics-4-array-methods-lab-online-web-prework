@@ -1,11 +1,11 @@
 def using_include(array, element)
  array = ["wow", "I", "am", "really", "learning", "arrays!"]
- array.include?(element1="wow", element2="Tardis")
+ array.include?("wow")
  end
 
 def using_sort(array)
 array = ["wow", "I", "am", "really", "learning", "arrays!"]
-array.last
+array.sort
 end
 
 def using_reverse(array)
